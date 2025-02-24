@@ -17,7 +17,7 @@ function updateBio() {
     console.log("Name: " + name);
     console.log("Profession: " + profession);
 
-    document.getElementById('nameDisplay').innerText = "Name: " + name;
+    document.getElementById('nameDisplay').innerHTML = "Name: " + name;
     document.getElementById('professionDisplay').innerText = "Profession: " + profession;
 
     let photoDisplay = document.getElementById('photoDisplay');
